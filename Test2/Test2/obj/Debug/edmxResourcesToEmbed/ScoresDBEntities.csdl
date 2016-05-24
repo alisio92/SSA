@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ScoreAppModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Competition">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Country_Id" Type="Int32" />
+    <NavigationProperty Name="Country" Relationship="Self.FK_dbo_Competitions_dbo_Countries_Country_Id" FromRole="Competitions" ToRole="Countries" />
+    <NavigationProperty Name="Scores" Relationship="Self.FK_dbo_Scores_dbo_Competitions_CompetitionId" FromRole="Competitions" ToRole="Scores" />
+    <NavigationProperty Name="Teams" Relationship="Self.FK_dbo_Teams_dbo_Competitions_Competition_Id" FromRole="Competitions" ToRole="Teams" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Competitions" Relationship="Self.FK_dbo_Competitions_dbo_Countries_Country_Id" FromRole="Countries" ToRole="Competitions" />
+  </EntityType>
+  <EntityType Name="Score">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ScoreA" Type="Int32" Nullable="false" />
+    <Property Name="ScoreB" Type="Int32" Nullable="false" />
+    <Property Name="CompetitionId" Type="Int32" Nullable="false" />
+    <Property Name="TeamA_Id" Type="Int32" />
+    <Property Name="TeamB_Id" Type="Int32" />
+    <NavigationProperty Name="Competition" Relationship="Self.FK_dbo_Scores_dbo_Competitions_CompetitionId" FromRole="Scores" ToRole="Competitions" />
+    <NavigationProperty Name="Team" Relationship="Self.FK_dbo_Scores_dbo_Teams_TeamA_Id" FromRole="Scores" ToRole="Teams" />
+    <NavigationProperty Name="Team1" Relationship="Self.FK_dbo_Scores_dbo_Teams_TeamB_Id" FromRole="Scores" ToRole="Teams" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Team">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Competition_Id" Type="Int32" />
+    <NavigationProperty Name="Competition" Relationship="Self.FK_dbo_Teams_dbo_Competitions_Competition_Id" FromRole="Teams" ToRole="Competitions" />
+    <NavigationProperty Name="Scores" Relationship="Self.FK_dbo_Scores_dbo_Teams_TeamA_Id" FromRole="Teams" ToRole="Scores" />
+    <NavigationProperty Name="Scores1" Relationship="Self.FK_dbo_Scores_dbo_Teams_TeamB_Id" FromRole="Teams" ToRole="Scores" />
+  </EntityType>
+  <Association Name="FK_dbo_Competitions_dbo_Countries_Country_Id">
+    <End Role="Countries" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="Competitions" Type="Self.Competition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Competitions">
+        <PropertyRef Name="Country_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Scores_dbo_Competitions_CompetitionId">
+    <End Role="Competitions" Type="Self.Competition" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Scores" Type="Self.Score" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Competitions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Scores">
+        <PropertyRef Name="CompetitionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Teams_dbo_Competitions_Competition_Id">
+    <End Role="Competitions" Type="Self.Competition" Multiplicity="0..1" />
+    <End Role="Teams" Type="Self.Team" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Competitions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Teams">
+        <PropertyRef Name="Competition_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Scores_dbo_Teams_TeamA_Id">
+    <End Role="Teams" Type="Self.Team" Multiplicity="0..1" />
+    <End Role="Scores" Type="Self.Score" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Scores">
+        <PropertyRef Name="TeamA_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Scores_dbo_Teams_TeamB_Id">
+    <End Role="Teams" Type="Self.Team" Multiplicity="0..1" />
+    <End Role="Scores" Type="Self.Score" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Scores">
+        <PropertyRef Name="TeamB_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ScoreAppEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="Competitions" EntityType="Self.Competition" />
+    <EntitySet Name="Countries" EntityType="Self.Country" />
+    <EntitySet Name="Scores" EntityType="Self.Score" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Teams" EntityType="Self.Team" />
+    <AssociationSet Name="FK_dbo_Competitions_dbo_Countries_Country_Id" Association="Self.FK_dbo_Competitions_dbo_Countries_Country_Id">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="Competitions" EntitySet="Competitions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Scores_dbo_Competitions_CompetitionId" Association="Self.FK_dbo_Scores_dbo_Competitions_CompetitionId">
+      <End Role="Competitions" EntitySet="Competitions" />
+      <End Role="Scores" EntitySet="Scores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Teams_dbo_Competitions_Competition_Id" Association="Self.FK_dbo_Teams_dbo_Competitions_Competition_Id">
+      <End Role="Competitions" EntitySet="Competitions" />
+      <End Role="Teams" EntitySet="Teams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Scores_dbo_Teams_TeamA_Id" Association="Self.FK_dbo_Scores_dbo_Teams_TeamA_Id">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="Scores" EntitySet="Scores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Scores_dbo_Teams_TeamB_Id" Association="Self.FK_dbo_Scores_dbo_Teams_TeamB_Id">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="Scores" EntitySet="Scores" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
