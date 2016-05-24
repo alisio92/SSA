@@ -1,0 +1,11 @@
+﻿@model FileRegistration
+<h1>Edit</h1>
+<h2>FileRegistration</h2>
+@using (Html.BeginForm("EditItem", "Files", FormMethod.Post))
+{
+    @Html.HiddenFor(a => a.FileId)
+    @Html.LabelFor(a => a.Description)
+    <input type="text" name="Description" id="Description" />
+    <br />
+    <input type="submit" name="Edit" value="Edit" />
+}

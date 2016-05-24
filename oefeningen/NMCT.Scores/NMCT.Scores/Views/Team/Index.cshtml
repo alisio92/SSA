@@ -1,0 +1,22 @@
+﻿@model NMCT.Scores.ViewModels.IndexTeamVM
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>@ViewBag.Title</h2>
+@using (Html.BeginForm("Index", "Team", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>@Html.DropDownListFor(model => model.NewCompetition.Id, Model.SelectedCompetition) </td>
+            <td><input type="submit" name="Choose" value="Choose" /></td>
+        </tr>
+    </table>
+}
+
+<ul>
+@foreach (var item in Model.Teams)
+{
+    <li>@Html.ActionLink(item.Name, "Details", new { id = item.Id })</li>
+}
+</ul>

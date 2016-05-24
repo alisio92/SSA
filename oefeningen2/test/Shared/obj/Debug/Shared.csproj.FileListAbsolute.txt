@@ -1,0 +1,5 @@
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\test\Shared\bin\Debug\Shared.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\test\Shared\bin\Debug\Shared.pdb
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\test\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\test\Shared\obj\Debug\Shared.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\test\Shared\obj\Debug\Shared.pdb

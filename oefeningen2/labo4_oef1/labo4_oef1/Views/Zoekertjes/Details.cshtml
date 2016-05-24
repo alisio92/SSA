@@ -1,0 +1,19 @@
+﻿@model Zoekertje
+<h2>@Html.DisplayFor(a => a.Titel)</h2>
+<br />
+<br />
+@Html.LabelFor(a => a.Omschrijving) @Html.DisplayFor(model => model.Omschrijving)
+<br />
+@Html.LabelFor(a => a.Prijs) @ViewBag.Prijs
+<br />
+@Html.LabelFor(a => a.LocatieId) @ViewBag.Locatie
+<br />
+@Html.LabelFor(a => a.CategorieId) @ViewBag.Categorie
+<br />
+@Html.Label("Contacteren via telefoon mogelijk op het nr:")
+@Html.DisplayFor(a => a.Telefoon)
+<br />
+@Html.Label("Contacteren via telefoon mogelijk op het adres:")
+@Html.DisplayFor(a => a.Email)
+<br />
+<a href="/Zoekertjes/Index">@ViewBag.Redirect</a>

@@ -1,0 +1,23 @@
+﻿@model IEnumerable<DeleteReden>
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Wenst u dit zoekertje te verwijderen?</h2>
+<p>@ViewBag.Titel</p>
+<p>@ViewBag.Beschrijving</p>
+
+<h3>Reden van verwijderen</h3>
+
+@foreach (DeleteReden deleteReden in Model)
+{
+    @Html.RadioButton(deleteReden.Naam, new { Id = deleteReden.Id })
+}
+    
+    <input type="submit" value="Delete" />
+
+<div>
+    @Html.ActionLink("Terug", "Index")
+</div>
+

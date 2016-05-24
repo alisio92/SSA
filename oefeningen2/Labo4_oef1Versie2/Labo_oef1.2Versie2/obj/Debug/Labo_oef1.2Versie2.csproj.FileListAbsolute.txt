@@ -1,0 +1,5 @@
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4_oef1Versie2\Labo_oef1.2Versie2\obj\Debug\Labo_oef1.2Versie2.csprojResolveAssemblyReference.cache
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4_oef1Versie2\Labo_oef1.2Versie2\bin\Debug\Labo_oef1.2Versie2.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4_oef1Versie2\Labo_oef1.2Versie2\bin\Debug\Labo_oef1.2Versie2.pdb
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4_oef1Versie2\Labo_oef1.2Versie2\obj\Debug\Labo_oef1.2Versie2.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4_oef1Versie2\Labo_oef1.2Versie2\obj\Debug\Labo_oef1.2Versie2.pdb

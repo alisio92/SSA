@@ -1,0 +1,2 @@
+178.32.218.148
+voiceserver01.cloudapp.net

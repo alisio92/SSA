@@ -1,0 +1,55 @@
+﻿@model PMNew
+@using (Html.BeginForm())
+{
+@Html.LabelFor(a => a.Omschrijving)
+<br />
+@Html.EditorFor(a => a.Omschrijving)
+@Html.ValidationMessageFor(a => a.Omschrijving)
+<br />
+@Html.LabelFor(a => a.Titel)
+<br />
+@Html.TextAreaFor(a => a.Titel)
+@Html.ValidationMessageFor(a => a.Titel)
+<br />
+@Html.LabelFor(a => a.Naam)
+<br />
+@Html.EditorFor(a => a.Naam)
+@Html.ValidationMessageFor(a => a.Naam)
+<br />
+@Html.LabelFor(a => a.Telefoon)
+<br />
+@Html.EditorFor(a => a.Telefoon)
+@Html.ValidationMessageFor(a => a.Telefoon)
+<br />
+@Html.LabelFor(a => a.Email)
+<br />
+@Html.EditorFor(a => a.Email)
+@Html.ValidationMessageFor(a => a.Email)
+<br />
+@Html.LabelFor(a => a.Prijs)
+<br />
+@Html.EditorFor(a => a.Prijs)
+@Html.ValidationMessageFor(a => a.Prijs)
+<br />
+@Html.LabelFor(a => a.CategorieId)
+<br />
+/*@Html.DropDownListFor(a => a.CategorieId, Model.NewCategory)
+@Html.ValidationMessageFor(a => a.CategorieId)*/
+<br />
+@Html.LabelFor(a => a.LocatieId)
+<br />
+@Html.DropDownListFor(a => a.LocatieId, Model.NewLocation)
+@Html.ValidationMessageFor(a => a.LocatieId)
+<br />
+@Html.LabelFor(a => a.ContacteerViaTelefoon)
+<br />
+@Html.CheckBoxFor(a => a.ContacteerViaTelefoon)
+@Html.ValidationMessageFor(a => a.ContacteerViaTelefoon)
+<br />
+@Html.LabelFor(a => a.ContacteerViaEMail)
+<br />
+@Html.CheckBoxFor(a => a.ContacteerViaEMail)
+@Html.ValidationMessageFor(a => a.ContacteerViaEMail)
+<br />
+<input type="submit" value="Create"/>
+}

@@ -1,0 +1,24 @@
+﻿
+<h2>Selecteer een bestand</h2>
+@using (Html.BeginForm("Upload", "Files", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <label for="omschrijving">Omschrijving voor bestand:</label>
+    <br />
+    <textarea rows="2" cols="10" name="description" id="description"></textarea>
+    <br />
+    <label for="file">Bestand:</label>
+    <br />
+    <input type="file" name="file" id="file" value="file" />
+    <br />
+    <label for="wie">Wie mag het bestand downloaden:</label>
+    <br />
+    <select multiple name="wie">
+        @foreach (var user in @ViewBag.Users)
+        {
+            <option value="@user.UserName">@user.UserName</option>
+        }
+    </select>
+    <br />
+    <input type="submit" name="send" value="Opladen..." />
+}
+

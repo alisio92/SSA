@@ -1,0 +1,220 @@
+﻿/*------------------------------
+BASIS SETUP - desktop
+------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, section, aside, nav, article {
+    display: block;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+body {
+    margin: 0 auto;
+    /*width: 100%;*/
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-size: 13px/18px;
+    background: #fff;
+    clear: both;
+}
+
+h1, h2 {
+    font-size: 1.5em;
+    padding: 15px 0px 0px 0px;
+    color: #D96E1F;
+}
+
+h1 {
+    line-height: 2em;
+    padding: 30px 22px 0px 22px;
+}
+
+.title > h2 {
+    line-height: 1.5em;
+    padding-left: 25px;
+}
+
+#content h2 {
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.3em;
+    padding: 11px 0;
+}
+
+p {
+    padding: 10px;
+}
+
+.clear-fix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+table {
+padding:10px;
+}
+
+td {
+    padding:0 3px ;
+}
+/*------------------------------
+NAV element
+------------------------------*/
+
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%; 
+    line-height: 2em;
+    background-color: #D96E1F;
+}
+
+    nav ul {
+        margin: 0 auto;
+        width: 960px;
+        list-style: none;
+        text-align: left;
+    }
+
+        nav ul li {
+             display: inline;
+            list-style: none;
+            padding-left: 15px;
+        }
+
+            nav ul li a {
+                background: none;
+                text-decoration: none;
+                color: #FFF;
+            }
+
+                nav ul li a:hover {
+                    color: #CCC;
+                }
+
+                nav ul li a::selection {
+                    color: #ddff18;
+                }
+
+/*------------------------------
+ SECTION #INTRO 
+------------------------------*/
+header img {
+      width: 100%;
+}
+
+
+
+
+/*------------------------------
+ SECTION CONTENT 
+------------------------------*/
+
+#content {
+    width: 90%;
+    display: table;
+    background-color: #f2f2f2;
+    margin: 15px auto 15px auto;
+    border-radius: 22px;
+    margin-top: 5px;
+    border-top: 1px solid #d7d7d7;
+}
+
+
+
+    #content article {
+        display: table;
+        padding: 22px;
+    }
+
+        #content article header {
+            display: table-cell;
+            width: 220px;
+            padding-right: 22px;
+        }
+
+
+
+            #content article header a {
+                display: block;
+                font-weight: bold;
+                color: #000;
+            }
+
+ /*------------------------------
+ FORM  
+------------------------------*/
+fieldset {
+width:85%;
+margin: 1% 0% 2% 2%;
+ border: 1px solid  #CCC;
+}
+
+.display-label , .editor-label {
+width:10%;
+
+min-width:84px;
+font-weight:400;
+color:#D96E1F;
+margin-left:2%;
+clear:both; 
+float:left;
+
+}
+.display-field , .editor-field {
+    width:85%;
+    float:left;   
+}
+
+legend , input , textarea, select{
+margin: 3px;
+padding: 2px;
+}
+
+
+input , textarea {
+width:90%;
+margin-right:0px;
+}
+
+input[type="submit"] {
+display:block;
+width : 100px;
+margin-top:10px;
+padding: 5px ;
+
+}
+
+
+input[type="checkbox"] {
+width:10%;
+padding: 5px ;
+float :left;
+}
+
+
+/*------------------------------
+ ASIDE 
+------------------------------*/
+
+
+aside {
+    display: table-cell;
+    width: 300px;
+}

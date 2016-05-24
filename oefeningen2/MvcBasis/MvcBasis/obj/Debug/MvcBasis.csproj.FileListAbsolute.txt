@@ -1,0 +1,55 @@
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\MvcBasis.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\MvcBasis.pdb
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\Newtonsoft.Json.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Net.Http.Formatting.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Helpers.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Http.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Http.WebHost.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Mvc.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Razor.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.WebPages.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.WebPages.Razor.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\Newtonsoft.Json.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Net.Http.Formatting.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Helpers.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Http.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Http.WebHost.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Mvc.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.Razor.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.WebPages.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\bin\System.Web.WebPages.Razor.xml
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\obj\Debug\MvcBasis.dll
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\obj\Debug\MvcBasis.pdb
+C:\Users\Srg\Desktop\2013-2014\Semester 1\Server Side Application\01.BasisMVC\Demos\MvcBasis\MvcBasis\obj\Debug\MvcBasis.csprojResolveAssemblyReference.cache
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\MvcBasis.dll.config
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\MvcBasis.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\MvcBasis.pdb
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\Newtonsoft.Json.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Net.Http.Formatting.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Helpers.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Http.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Http.WebHost.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Mvc.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Razor.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.WebPages.Deployment.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.WebPages.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.WebPages.Razor.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\Newtonsoft.Json.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Net.Http.Formatting.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Helpers.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Http.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Http.WebHost.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Mvc.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.Razor.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.WebPages.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.WebPages.Deployment.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\bin\System.Web.WebPages.Razor.xml
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\obj\Debug\MvcBasis.csprojResolveAssemblyReference.cache
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\obj\Debug\MvcBasis.dll
+C:\Users\alisio\Desktop\MvcBasis\MvcBasis\obj\Debug\MvcBasis.pdb

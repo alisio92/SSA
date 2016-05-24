@@ -1,0 +1,15 @@
+﻿<h1>Nieuwe externe gebruiker toevoegen</h1>
+<h2>ExterbalUser</h2>
+@using (Html.BeginForm("Register", "ExternalAccount", FormMethod.Post))
+{
+    <label for="UserName">UserName</label>
+    <input type="text" id="UserName" name="UserName" />
+    <br />
+    <label for="Password">Password</label>
+    <input type="text" id="Password" name="Password" />
+    <br />
+    <label for="Blocked">Blocked</label>
+    <input type="checkbox" id="Blocked" name="Blocked" />
+    <br />
+    <input type="submit" name="create" value="Create" />
+}

@@ -1,0 +1,34 @@
+﻿@model NMCT.Scores.ViewModels.AddScoreVM
+@{
+    ViewBag.Title = "AddScore";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("AddScore", "Competition", FormMethod.Post))
+{
+    <input type="hidden" value="@Html.ValueFor(model => model.CompetitionId)" name="CompetitionId" />
+    <table>
+        <tr>
+            <td>@Html.LabelFor(model => model.SelectedTeamA)</td>
+            <td>@Html.DropDownListFor(model => model.NewTeamA.Id, Model.SelectedTeamA) </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.ScoreA)</td>
+        </tr>
+        <tr>
+            <td>@Html.TextBoxFor(model => model.ScoreA)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.SelectedTeamB)</td>
+            <td>@Html.DropDownListFor(model => model.NewTeamB.Id, Model.SelectedTeamB) </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.ScoreB)</td>
+        </tr>
+        <tr>
+            <td>@Html.TextBoxFor(model => model.ScoreB)</td>
+        </tr>
+    </table>
+    <input type="submit" name="Opslaan" value="Opslaan" />
+}

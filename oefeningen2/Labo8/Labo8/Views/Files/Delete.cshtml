@@ -1,0 +1,18 @@
+﻿@model Labo8.Models.FileRegistration
+<h2>Wenst u deze file te verwijderen?</h2>
+<h3>FileRegistration</h3>
+@using (Html.BeginForm("DeleteItem", "Files", FormMethod.Post))
+{
+    @Html.HiddenFor(a => a.FileId)
+    @Html.LabelFor(a => a.FileId) @Html.DisplayFor(model => model.FileId)
+    <br />
+    @Html.LabelFor(a => a.Description) @Html.DisplayFor(model => model.Description)
+    <br />
+    @Html.LabelFor(a => a.FileName) @Html.DisplayFor(model => model.FileName)
+    <br />
+    @Html.LabelFor(a => a.UploadTime) @Html.DisplayFor(model => model.UploadTime)
+    <br />
+    @Html.LabelFor(a => a.UserName) @Html.DisplayFor(model => model.UserName)
+    <br />
+    <input type="submit" name="Delete" value="Delete" />
+}

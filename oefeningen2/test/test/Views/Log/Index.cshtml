@@ -1,0 +1,21 @@
+﻿@model PMLog
+<h2>Logs</h2>
+<table>
+    <tr>
+        <td width="100px">@Html.LabelFor(a => a.Id)</td>
+        <td width="250px">@Html.LabelFor(a => a.FileName)</td>
+        <td width="250px">@Html.LabelFor(a => a.UserName)</td>
+        <td width="250px">@Html.LabelFor(a => a.Creator)</td>
+        <td width="250px">@Html.LabelFor(a => a.DateTime)</td>
+    </tr>
+    @foreach (var item in @ViewBag.Logs)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.FileName</td>
+            <td>@item.UserName</td>
+            <td>@item.Creator</td>
+            <td>@item.DateTime</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Zoekertje>
+
+<ul>
+    @foreach(Zoekertje zoekertje in Model){
+        <li><a href="/Zoekertjes/Delete"><img src="~/images/trash.png" width="40" height="40" />@ViewBag.Delete</a> @Html.ActionLink(zoekertje.Titel, "Details", new { id = zoekertje.Id})</li>
+    }
+</ul>
+<a href="/Zoekertjes/New">@ViewBag.New</a>

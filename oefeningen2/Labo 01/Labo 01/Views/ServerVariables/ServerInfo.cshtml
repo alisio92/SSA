@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "ServerInfo";
+}
+
+<ul>
+    
+    @foreach(var item in ViewBag.Info){
+    <li>@item.Key <b> @item.Value</b></li>
+    }
+
+</ul>
+

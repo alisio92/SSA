@@ -1,0 +1,13 @@
+﻿@model Labo8.Models.FileRegistration
+<h2>Edit</h2>
+<h3>FileRegistration</h3>
+@using (Html.BeginForm("EditItem", "Files", FormMethod.Post))
+{
+    <input type="hidden" name="FileId" value="@ViewBag.FileId"/>
+    <label>Description</label>
+    <input type="text" name="Description"/>
+    
+    <br />
+    <input type="submit" name="Edit" value="Save" />
+}
+

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Step2";
+}
+
+<h2>Step2</h2>
+<form method="post" action="/Order/Bestel?step=3">
+    <p>Kies een tablet</p>
+    <select name="tablet">
+        @foreach(var tablet in ViewBag.Tablets){
+            <option value="@tablet.Id">@tablet.Name</option>
+        }
+    </select>
+    <input type="hidden" name="naam" value="@ViewBag.Naam" />
+    <input type="hidden" name="voornaam" value="@ViewBag.Voornaam" />
+    <input type="hidden" name="bedrijf" value="@ViewBag.Bedrijf" />
+    <input type="submit" value="Volgende >>" />
+</form>
+

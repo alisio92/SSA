@@ -1,0 +1,17 @@
+﻿@model Zoekertje
+
+
+<h2>@ViewBag.Titel</h2>
+
+<p>@Html.Label("Wat ik zoek ") @ViewBag.Beschrijving</p>
+<br/>
+<p>@Html.Label("Max. prijs die ik wens te betalen ") @ViewBag.Prijs</p>
+<br />
+<p>@Html.Label("Waar kan ik het zoekertje afhalen ") @ViewBag.Locatie</p>
+<br />
+<p>@Html.Label("Wat is de categorie van het zoekertje ") @ViewBag.Categorie</p>
+<br/>
+<p>@ViewBag.Telefoon</p>
+<p>@ViewBag.Email</p>
+<br/>
+<p>@Html.ActionLink("<< terug","Index")</p>

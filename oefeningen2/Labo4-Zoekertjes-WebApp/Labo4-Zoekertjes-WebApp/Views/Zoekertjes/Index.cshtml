@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Zoekertje>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+<br/>
+
+<ul>
+    @foreach (Zoekertje zoekertje in Model)
+    {
+        <li>@Html.ActionLink("Delete", "Delete", new { Id = zoekertje.Id })  @Html.ActionLink(zoekertje.Titel, "Details", new { Id = zoekertje.Id })</li>
+    }
+</ul>
+<br/>
+<p>@Html.ActionLink("Nieuwe zoekertje", "New")</p>

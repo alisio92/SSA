@@ -1,0 +1,18 @@
+﻿@model IEnumerable<NMCT.Scores.Models.Score>
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<table class="table">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(model => item.TeamA.Name)</td>
+            <td>@Html.DisplayFor(model => item.ScoreA) - @Html.DisplayFor(model => item.ScoreB)</td>
+            <td>@Html.DisplayFor(model => item.TeamB.Name)</td>
+            <td>@Html.ActionLink("Delete", "DeleteScore", "Competition", new { scoreId = Html.DisplayFor(model => item.Id) }, null)</td>
+        </tr>
+    }
+</table>
+<p>@Html.ActionLink("Back to List", "Index", "Team")</p>

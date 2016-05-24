@@ -1,0 +1,164 @@
+﻿/*--------------------------------
+BASIS SETUP - small mobile device 
+----------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, section, aside, nav, article {
+    display: block;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+body {
+    margin: 0 auto;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background: #fff;
+    clear: both;
+}
+
+h1, h2 {
+    font-size: 1.2em;  /* 1.5 */
+    padding: 15px 0px 0px  0px;
+    color:  #D96E1F;
+
+   
+}
+
+h1 {
+     line-height: 2em;
+    padding: 30px 22px 0px 22px;
+    
+  
+}
+
+    .title > h1 {
+    display:none;
+    }
+.title>h2 {
+    line-height:1.5em;
+    margin-top:1em;
+    padding-left:15px ; 
+     border-bottom: 1px solid #D96E1F;
+}
+ 
+
+
+#content h2 {
+font-size:1em;
+font-weight:bold;
+color:black;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.3em;
+    padding: 11px 0;
+}
+
+p {
+    padding-bottom: 22px;
+}
+
+.clear-fix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*------------------------------
+NAV element
+------------------------------*/
+
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%; 
+    line-height:2em;
+    background-color: #D96E1F;
+}
+
+    nav ul {
+        margin: 0 auto;
+        width: 960px;
+        list-style: none;
+        text-align: left;
+    }
+
+        nav ul li {
+            display: inline;
+            list-style: none;
+            padding-left: 15px;
+        }
+
+            nav ul li a {
+                background: none;
+                text-decoration: none;
+                color: #FFF;
+            }
+
+                nav ul li a:hover {
+                    color: #CCC;
+                }
+
+                  nav ul li a::selection {
+                    color: #ddff18;
+                }
+
+/*------------------------------
+ SECTION #INTRO 
+------------------------------*/
+  header img{    
+    width:100%;
+    }
+
+/*------------------------------
+ SECTION #CONTENT 
+------------------------------*/
+
+#content {
+    width: 98%;
+    background-color: #f2f2f2;
+    margin: 15px auto 15px auto;
+    border-radius: 15px;
+    margin-top: 5px;
+    border-top: 1px solid #d7d7d7;
+}
+
+
+    #content article {
+        padding: 22px;
+    }
+
+        #content article header {
+            float:left;
+        }
+
+
+
+            #content article header a {
+                display: block;
+                font-weight: bold;
+                color: #000;
+            }
+
+.display-field {}
+
+
+/*------------------------------
+ ASIDE 
+------------------------------*/
+aside {
+    clear:both;
+    margin:0 auto;
+}

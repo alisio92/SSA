@@ -1,0 +1,50 @@
+﻿@model Labo8.PresentationModels.PMIndex
+<h2>Mijn bestanden</h2>
+@using (Html.BeginForm("DeleteItem", "Files", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td width="200px">@Html.LabelFor(a => a.Description)</td>
+            <td width="200px">@Html.LabelFor(a => a.FileName)</td>
+            <td width="200px">@Html.LabelFor(a => a.UploadTime)</td>
+            <td width="200px">@Html.LabelFor(a => a.UserName)</td>
+        </tr>
+        @foreach (var item in @ViewBag.Files)
+        {
+            <tr>
+                @*<td>@Html.DisplayFor(s => item.Description)</td>
+                    <td>@Html.DisplayFor(a => a.FileName)</td>
+                    <td>@Html.DisplayFor(a => a.UploadTime)</td>
+                    <td>@Html.DisplayFor(a => a.UserName)</td>*@
+                <td>@item.Description</td>
+                <td>@item.FileName</td>
+                <td>@item.UploadTime</td>
+                <td>@item.UserName</td>
+                <td><a href="/Files/Download?id=@item.FileId">Download</a> | <a href="/Files/Delete?id=@item.FileId">Delete</a> | <a href="/Files/Edit?id=@item.FileId">Edit</a></td>
+            </tr>
+        }
+    </table>
+    <h2>Bestanden waar ik toegang tot heb</h2>
+    <table>
+        <tr>
+            <td width="200px">@Html.LabelFor(a => a.Description)</td>
+            <td width="200px">@Html.LabelFor(a => a.FileName)</td>
+            <td width="200px">@Html.LabelFor(a => a.UploadTime)</td>
+            <td width="200px">@Html.LabelFor(a => a.UserName)</td>
+        </tr>
+        @foreach (var item in @ViewBag.AllowedFiles)
+        {
+            <tr>
+                @*<td>@Html.DisplayFor(s => item.Description)</td>
+                    <td>@Html.DisplayFor(a => a.FileName)</td>
+                    <td>@Html.DisplayFor(a => a.UploadTime)</td>
+                    <td>@Html.DisplayFor(a => a.UserName)</td>*@
+                <td>@item.Description</td>
+                <td>@item.FileName</td>
+                <td>@item.UploadTime</td>
+                <td>@item.UserName</td>
+                <td><a href="/Files/Download?id=@item.FileId">Download</a> | <a href="/Files/Delete?id=@item.FileId">Delete</a> | <a href="/Files/Edit?id=@item.FileId">Edit</a></td>
+            </tr>
+        }
+    </table>
+}

@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Zoekertje>
+
+<ul>
+    @foreach(Zoekertje zoekertje in Model){
+        <li>@Html.ActionLink(zoekertje.Titel, "Details", new { id = zoekertje.Id})</li>
+    }
+</ul>
+<a href="/Zoekertjes/New">@ViewBag.New</a>

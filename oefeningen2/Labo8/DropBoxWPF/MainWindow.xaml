@@ -1,0 +1,33 @@
+﻿<Window x:Class="DropBoxWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Username:" Margin="10"/>
+        <TextBox Margin="10" Grid.Column="1"/>
+        <TextBlock Text="Password:" Margin="10" Grid.Column="2"/>
+        <TextBox Margin="10" Grid.Column="3"/>
+        <Button Margin="10" Grid.Column="4" Name="btnLogin" Content="Login"/>
+        <Button Margin="10" Grid.Column="5" Name="btnLoad" Content="Load"/>
+        <DataGrid Grid.Row="1" Grid.ColumnSpan="6" Margin="10" Name="dgDropbox">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Width="30"/>
+                <DataGridTextColumn Header="FileName" Width="1*"/>
+                <DataGridTextColumn Header="DateTime" Width="1*"/>
+                <DataGridTextColumn Header="UserName" Width="1*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

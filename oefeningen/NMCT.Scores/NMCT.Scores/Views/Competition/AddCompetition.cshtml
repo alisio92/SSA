@@ -1,0 +1,20 @@
+﻿@model NMCT.Scores.ViewModels.AddCompetitionVM
+@{
+    ViewBag.Title = "AddCompetition";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("AddCompetition", "Competition", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>@Html.DropDownListFor(model => model.NewCompetition.Country.Id, Model.SelectedCountry) </td>
+        </tr>
+        <tr>
+            <td>@Html.TextBoxFor(model => model.NewCompetition.Name)</td>
+        </tr>
+    </table>
+    <input type="submit" name="Opslaan" value="Opslaan" />
+}
+

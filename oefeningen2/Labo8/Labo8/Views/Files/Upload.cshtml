@@ -1,0 +1,26 @@
+﻿@model Labo8.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Upload";
+}
+
+<h2>Selecteer een bestand</h2>
+
+@using (Html.BeginForm("Upload", "Files", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <p><label>Omschrijving voor bestand:</label></p>
+   <p><textarea rows="3" name="description"></textarea></p>
+    
+
+    <p><label>Bestand:</label></p>
+    <p> <input type="file" name="file" /></p>
+
+    <p><label>Wie mag het bestand openen:</label></p>
+    <p><select name="wie" size="3" multiple>
+    @foreach (var user in ViewBag.Users)
+    {
+        <option value="@user.Id">@user.Name - @user.Firstname</option>
+    }
+</select></p>
+
+    <p> <input type="submit" name="Upload" value="Opladen..." /></p>
+}

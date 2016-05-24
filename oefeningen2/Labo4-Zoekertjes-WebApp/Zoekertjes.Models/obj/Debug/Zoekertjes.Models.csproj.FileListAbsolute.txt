@@ -1,0 +1,10 @@
+C:\Users\Mike Sadonis\Documents\Serverside Application\Labo\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\obj\Debug\Zoekertjes.Models.csprojResolveAssemblyReference.cache
+C:\Users\Mike Sadonis\Documents\Serverside Application\Labo\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\bin\Debug\Zoekertjes.Models.dll
+C:\Users\Mike Sadonis\Documents\Serverside Application\Labo\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\bin\Debug\Zoekertjes.Models.pdb
+C:\Users\Mike Sadonis\Documents\Serverside Application\Labo\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\obj\Debug\Zoekertjes.Models.dll
+C:\Users\Mike Sadonis\Documents\Serverside Application\Labo\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\obj\Debug\Zoekertjes.Models.pdb
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\bin\Debug\Zoekertjes.Models.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\bin\Debug\Zoekertjes.Models.pdb
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\obj\Debug\Zoekertjes.Models.csprojResolveAssemblyReference.cache
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\obj\Debug\Zoekertjes.Models.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Labo4-Zoekertjes-WebApp\Zoekertjes.Models\obj\Debug\Zoekertjes.Models.pdb

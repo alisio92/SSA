@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="modernizr.js"></script>
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="~/Content/Style-small.css"/>
+    <link rel="stylesheet" type="text/css" href="/Content/Style.css"/>
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="/Content/Style.css"/>
+    <![endif]-->
+</head>
+<body>
+    <header class="content-wrapper">
+        <img src="~/Content/Images/nmct-mobile.jpg" />
+    </header>
+    <nav>
+        <ul>
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("Domeinen", "Index", "Domain")</li>
+            <li>@Html.ActionLink("Kies","Select","Domain")</li>
+        </ul>
+    </nav>
+    <div class="content-wrapper clear-fix">
+        <br />
+        <br />
+        @RenderBody()
+    </div>
+</body>
+</html>

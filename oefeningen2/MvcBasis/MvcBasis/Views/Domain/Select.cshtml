@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MvcBasis.Models.Domain>
+
+@{
+    ViewBag.Title = "Select";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<h2>Select</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Domain</legend>
+
+        @Html.Label("name", "Naam: ", new { @class = "display-label" })
+
+        @Html.TextBox("name", Request["name"], new { @class = "editor-field", required = "required" })
+
+        @Html.Label("email", "E-Mail: ", new { @class = "display-label" })
+
+        @Html.TextBox("email", Request["email"], new { @class = "editor-field", @type = "email" })
+        
+        @Html.Label("type", "Type: ", new { @class = "display-label" })
+
+        @Html.DropDownList("type", (SelectList)ViewBag.TypeList, new { @class="editor-field" })
+
+        @foreach (var item in Model)
+        { 
+            <p>
+                @Html.CheckBox("chkVakken[]", false, new { value = item.Name, id=item.Name })
+                @Html.Label("chkVakken", item.Name , new { @for = item.Name }) &nbsp;&nbsp;&nbsp;
+                @Html.Label(item.Year.ToString("MMM/yyyy"))
+            </p>
+        }
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

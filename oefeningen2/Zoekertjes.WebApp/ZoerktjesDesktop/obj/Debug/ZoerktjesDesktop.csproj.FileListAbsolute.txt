@@ -1,0 +1,91 @@
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.exe.config
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.exe
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.pdb
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csprojResolveAssemblyReference.cache
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\MainWindow.baml
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\MainWindow.g.cs
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\App.g.cs
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop_MarkupCompile.cache
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.g.resources
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.Properties.Resources.resources
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csproj.GenerateResource.Cache
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.exe
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.pdb
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csproj.App.config
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Zoerktjes.Models.dll
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 4\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Zoerktjes.Models.pdb
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.exe.config
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.exe
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.pdb
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.exe
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.pdb
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Zoerktjes.Models.dll
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Zoerktjes.Models.pdb
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csproj.App.config
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csprojResolveAssemblyReference.cache
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\MainWindow.baml
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\MainWindow.g.cs
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\App.g.cs
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop_MarkupCompile.cache
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.g.resources
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.Properties.Resources.resources
+C:\Users\dieter\OneDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csproj.GenerateResource.Cache
+C:\Users\dieter\SkyDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.exe.config
+C:\Users\dieter\SkyDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.exe
+C:\Users\dieter\SkyDrive\NMCT\2014 - 2015\Server Side Application\Week 5\Labo\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.pdb
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.exe.config
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.exe
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.pdb
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.exe
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.pdb
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Zoerktjes.Models.dll
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Zoerktjes.Models.pdb
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csproj.App.config
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csprojResolveAssemblyReference.cache
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\MainWindow.baml
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\MainWindow.g.cs
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\App.g.cs
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop_MarkupCompile.cache
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.g.resources
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.Properties.Resources.resources
+C:\Users\alisio\Desktop\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csproj.GenerateResource.Cache
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.exe.config
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.exe
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.pdb
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.exe
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\ZoerktjesDesktop.pdb
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Zoerktjes.Models.dll
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Zoerktjes.Models.pdb
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csproj.App.config
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csprojResolveAssemblyReference.cache
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\MainWindow.baml
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\MainWindow.g.cs
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\App.g.cs
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop_MarkupCompile.cache
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.g.resources
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.Properties.Resources.resources
+C:\Users\alisio\Desktop\howest\2NMCT\S3\server side application\oefeningen\Zoekertjes.WebApp\ZoerktjesDesktop\obj\Debug\ZoerktjesDesktop.csproj.GenerateResource.Cache

@@ -1,0 +1,2 @@
+sql
+nagaan waar row staat in satabase en van dat punt de voorgande en de nakomende rows

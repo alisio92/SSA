@@ -1,0 +1,15 @@
+﻿@Model PMDelete
+@using (Html.BeginForm())
+{
+    <h2>Wenst u het zoekertje te verwijderen?</h2>
+    <p>@ViewBag.Delete</p>
+    <form method="post" action="save">
+        <input type="submit" value="Delete" name="delete" />
+    </form>
+}
+
+
+
+
+
+
